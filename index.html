@@ -37,7 +37,7 @@
         <section class="section-link">
             <div class="container section-container">
                 <h1 class="section-link-title">Effective Solutions for Your Business </h1>
-                <button type="button" class="section-link-btn btn filter">Order Service</button>
+                <button type="button" data-modal-open class="section-link-btn btn filter">Order Service</button>
             </div>
         </section>
         <section class="feature">
@@ -323,7 +323,15 @@
             </div>
         </div>
     </footer>
-    
-    
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button class="modal-close" data-modal-close type="button">
+                <svg class="about-modal-icon">
+                    <use class="about-modal" href="./images/symbol-defs-vector.svg#icon-vector"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
