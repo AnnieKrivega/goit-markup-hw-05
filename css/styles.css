@@ -32,6 +32,12 @@ p{
 .col:focus .about-customers-icon {
     fill: #404BBF;
 }
+.modals:hover,
+.modals:focus {
+    background-color: #404BBF;
+    fill: #FFFFFF;
+}
+
 .col:hover,
 .col:focus{
     border: 1px solid #404BBF;
@@ -514,32 +520,25 @@ p{
     border-radius: 4px;
     padding: 24px;
 }
-.modal-close {
-    width: 24px;
-    height: 24px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    background: #E7E9FC;
-    border-radius: 50%;
-    display: block;
-    margin-left: auto;
-}
-.about-modal-icon{
+.modal-close-btn {
     position: absolute;
-    box-sizing: border-box;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-}
-.about-modal{
+    top: 24px;
+    right: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 24px;
     height: 24px;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    background: #E7E9FC;
+    background-color: #E7E9FC;
     border-radius: 50%;
-    display: block;
     margin-left: auto;
 }
+.modal-close-btn-icon{
+    width: 8px;
+    height: 8px;
+}
+
 
 .title {
     font-size: 36px;
